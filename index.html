@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de la compra</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="ejercicio.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="cargar-usuario">
+            <h1>Cargar lista de la compra</h1>
+            <p><input type="text" name="usuario" id="usuario" value="Username here"></p>
+            <button id="boton-cargar-lista">Cargar lista</button>
+        </div>
+        <div class="container">
+            <div class="productos">
+                <h1>Productos</h1>
+                <span></span><input type="text" id="texto-producto"></input> <button id="boton-insertar">Añadir
+                    producto</button>
+                <p>
+                    <button id="boton-borrar-ultimo">Borrar último producto</button>
+                    <button id="boton-borrar-todo">Borrar lista completa</button>
+                </p>
+                <h2>Acceso rápido</h2>
+                <div id="acceso-rapido">
+                    <img src="img/fruta.png" alt="Fruta">
+                    <img src="img/huevos.png" alt="Huevos">
+                    <img src="img/pan.png" alt="Pan">
+                    <img src="img/queso.png" alt="Queso">
+                    <img src="img/leche.png" alt="Leche">
+                </div>
+            </div>
+            <div class="lista">
+                <h1>Lista de la compra</h1>
+                <ul id="la-lista"></ul>
+                <div id="lista-vacia" class="esVisible">
+                    <img src="img/carro.png" alt="Lista vacía">
+                    <p>La lista está vacía</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

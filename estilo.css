@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(190, 240, 221);
+    font-family: monospace;
+}
+
+.wrapper {
+    display: grid;
+    margin-top: 5%;
+}
+
+.cargar-usuario {
+    text-align: center;
+}
+
+.cargar-usuario > p {
+    margin-top: 12px;
+}
+
+.cargar-usuario > p > input {
+    padding: 5px;
+}
+
+.cargar-usuario > button {
+    width: 167px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.cargar-usuario > button,
+.productos > button,
+.productos p button {
+    background-color: white;
+}
+
+.cargar-usuario > button:hover,
+.productos > button:hover,
+.productos p button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+.productos > input {
+    padding: 5px;
+}
+
+.productos > button {
+    padding: 5px;
+}
+
+.productos p {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.productos p button {
+    padding: 5px;
+}
+
+.lista h1 {
+    text-align: center;
+}
+
+.lista, .productos {
+    margin: 1rem;
+}
+#lista-vacia {
+    text-align: center;
+    display: none;
+}
+
+#lista-vacia>img {
+    width: 200px;
+}
+.lista ul {
+    padding-inline-start: 0;
+}
+.lista li {
+    list-style-type: none;
+    border: 1px black solid;
+    border-bottom: 0;
+    padding: 6px;
+}
+
+.lista li:last-child {
+    border-bottom: 1px black solid;
+}
+
+#acceso-rapido img {
+    max-width: 50px;
+    padding: 10px;
+}
+
+.seleccionado {
+    border: 2px black solid;
+}
+
+.icono-borrar  {
+    display: block;
+    float: right;
+    max-height: 1em;
+}
+
+.comprado {
+    text-decoration:line-through;
+}
+
+#lista-vacia.esVisible {
+    display: block;
+}

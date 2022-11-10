@@ -1,0 +1,18 @@
+{
+    "usuario": "guille",
+    "productos": [
+        {
+            "nombre": "café",
+            "comprado": true
+        },
+        {
+            "nombre": "sacarina",
+            "comprado": false
+        },
+        {
+            "nombre": "fruta",
+            "comprado": false
+        }
+    ]
+
+}
